@@ -1,0 +1,14 @@
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+
+#opencv_install
+conda install -c https://conda.binstar.org/menpo opencv
+
+pip install keras
+
+pip install torch
+
+sudo apt install nvidia-cuda-toolkit
+nvcc -V
