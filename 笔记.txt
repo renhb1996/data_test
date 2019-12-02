@@ -1,0 +1,2 @@
+pip install name --ignore-installed #忽略已安装的包
+pip install -I name#更新包
