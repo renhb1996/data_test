@@ -12,3 +12,6 @@ pip install python-qt
 #tensorflow 和 tensorlayer安装问题
 #首先卸载tensorflow，protobuf， tensorlayer
 #然后先安装tensorlayer， 然后再安装tensorflow
+
+
+#windowns 下python2 不能安装tensorflow， ubuntu可以
