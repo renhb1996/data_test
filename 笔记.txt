@@ -7,3 +7,8 @@ windows下初次使用pip无法安装包（终端和pycharm都不行）
 解决方法：在终端安装requests包（pip install requests），之后就能正常安装了
 二、
 pip install python-qt
+
+
+#tensorflow 和 tensorlayer安装问题
+#首先卸载tensorflow，protobuf， tensorlayer
+#然后先安装tensorlayer， 然后再安装tensorflow
