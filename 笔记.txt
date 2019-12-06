@@ -15,3 +15,6 @@ pip install python-qt
 
 
 #windowns 下python2 不能安装tensorflow， ubuntu可以
+
+
+https://zhuanlan.zhihu.com/p/44183691
