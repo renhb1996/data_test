@@ -21,3 +21,12 @@ https://zhuanlan.zhihu.com/p/44183691
 
 
 https://www.tensorflow.org/install/source_windows
+
+
+
+#ubuntu
+gedit ~/.bashrc#打开文件
+#将文件所在bin路径加入环境文件中
+export PATH=/usr/local/cuda-10.0/bin:$PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64 #注意冒号，版本号，注意安装默认路径
+source ~/.bashrc#保存并更新文件
